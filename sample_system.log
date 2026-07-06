@@ -1,0 +1,11 @@
+2024-05-01 10:42:11 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2
+2024-05-01 10:42:14 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2
+2024-05-01 10:42:17 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2
+2024-05-01 10:43:01 sshd[1235]: Accepted password for admin from 192.168.1.50 port 22 ssh2
+2024-05-01 10:44:55 kernel: usb 1-1: new high-speed USB device number 3 using ehci-hcd
+2024-05-01 10:45:02 kernel: usb 1-1: USB Mass Storage device detected
+2024-05-01 10:47:13 audit: SYSCALL arch=x86_64 syscall=unlinkat success=yes (deleted) /home/admin/documents/report_final.docx
+2024-05-01 10:47:45 audit: SYSCALL arch=x86_64 syscall=unlinkat success=yes (deleted) /home/admin/documents/evidence_backup.zip
+2024-05-01 10:49:00 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash
+2024-05-01 10:51:30 sshd[1240]: connection closed by 192.168.1.50
+2024-05-01 11:05:00 systemd: Starting system shutdown...

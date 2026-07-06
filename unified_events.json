@@ -1,0 +1,177 @@
+{
+  "case_metadata": {
+    "generated_at": "2026-06-03T11:22:01.060441",
+    "total_events": 19,
+    "sources": [
+      "sample_system.log",
+      "sample_whatsapp.txt"
+    ],
+    "event_types": [
+      "media_shared",
+      "login_success",
+      "network_event",
+      "suspicious_chat",
+      "privilege_change",
+      "system_event",
+      "file_deleted",
+      "login_failed",
+      "chat_message",
+      "usb_event",
+      "location_shared"
+    ]
+  },
+  "events": [
+    {
+      "timestamp": "2024-05-01T10:30:00",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "chat_message",
+      "description": "Ahmed: hey are you there",
+      "raw_hash": "66674b121012e815"
+    },
+    {
+      "timestamp": "2024-05-01T10:30:45",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "chat_message",
+      "description": "Sara: yes what's up",
+      "raw_hash": "0f4b48126193eb3d"
+    },
+    {
+      "timestamp": "2024-05-01T10:31:12",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "suspicious_chat",
+      "description": "Ahmed: meet me at the warehouse tonight, don't tell anyone",
+      "raw_hash": "8971902f0806c16c"
+    },
+    {
+      "timestamp": "2024-05-01T10:31:55",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "suspicious_chat",
+      "description": "Sara: ok, delete this conversation after",
+      "raw_hash": "daa78bf80b8d4c6a"
+    },
+    {
+      "timestamp": "2024-05-01T10:33:00",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "media_shared",
+      "description": "Ahmed shared media",
+      "raw_hash": "4cb5f85003a29361"
+    },
+    {
+      "timestamp": "2024-05-01T10:34:22",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "location_shared",
+      "description": "Ahmed shared a location",
+      "raw_hash": "7279f246843e0a92"
+    },
+    {
+      "timestamp": "2024-05-01T10:40:00",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "suspicious_chat",
+      "description": "Sara: got it, bringing the cash",
+      "raw_hash": "b778b543ee673d81"
+    },
+    {
+      "timestamp": "2024-05-01T10:41:10",
+      "source_file": "sample_whatsapp.txt",
+      "source_type": "whatsapp",
+      "event_type": "suspicious_chat",
+      "description": "Ahmed: no record of this meeting ok?",
+      "raw_hash": "341bdc986c17bd17"
+    },
+    {
+      "timestamp": "2024-05-01T10:42:11",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "login_failed",
+      "description": "2024-05-01 10:42:11 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2",
+      "raw_hash": "b7aba7ef8895372f"
+    },
+    {
+      "timestamp": "2024-05-01T10:42:14",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "login_failed",
+      "description": "2024-05-01 10:42:14 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2",
+      "raw_hash": "10c1375ae77db169"
+    },
+    {
+      "timestamp": "2024-05-01T10:42:17",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "login_failed",
+      "description": "2024-05-01 10:42:17 sshd[1234]: Failed password for root from 192.168.1.50 port 22 ssh2",
+      "raw_hash": "deddbc92ab245d47"
+    },
+    {
+      "timestamp": "2024-05-01T10:43:01",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "login_success",
+      "description": "2024-05-01 10:43:01 sshd[1235]: Accepted password for admin from 192.168.1.50 port 22 ssh2",
+      "raw_hash": "4e2fb7ee818d3f47"
+    },
+    {
+      "timestamp": "2024-05-01T10:44:55",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "usb_event",
+      "description": "2024-05-01 10:44:55 kernel: usb 1-1: new high-speed USB device number 3 using ehci-hcd",
+      "raw_hash": "6ca2efe9f2b3a520"
+    },
+    {
+      "timestamp": "2024-05-01T10:45:02",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "usb_event",
+      "description": "2024-05-01 10:45:02 kernel: usb 1-1: USB Mass Storage device detected",
+      "raw_hash": "fa54b655be6dc557"
+    },
+    {
+      "timestamp": "2024-05-01T10:47:13",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "file_deleted",
+      "description": "2024-05-01 10:47:13 audit: SYSCALL arch=x86_64 syscall=unlinkat success=yes (deleted) /home/admin/documents/report_final.docx",
+      "raw_hash": "926dabfa18f711d1"
+    },
+    {
+      "timestamp": "2024-05-01T10:47:45",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "file_deleted",
+      "description": "2024-05-01 10:47:45 audit: SYSCALL arch=x86_64 syscall=unlinkat success=yes (deleted) /home/admin/documents/evidence_backup.zip",
+      "raw_hash": "83bf34c0dedb8718"
+    },
+    {
+      "timestamp": "2024-05-01T10:49:00",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "privilege_change",
+      "description": "2024-05-01 10:49:00 sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash",
+      "raw_hash": "808a3eae973dbcf0"
+    },
+    {
+      "timestamp": "2024-05-01T10:51:30",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "network_event",
+      "description": "2024-05-01 10:51:30 sshd[1240]: connection closed by 192.168.1.50",
+      "raw_hash": "ee03b098833eeba9"
+    },
+    {
+      "timestamp": "2024-05-01T11:05:00",
+      "source_file": "sample_system.log",
+      "source_type": "log",
+      "event_type": "system_event",
+      "description": "2024-05-01 11:05:00 systemd: Starting system shutdown...",
+      "raw_hash": "44a112a49962fa1e"
+    }
+  ]
+}
